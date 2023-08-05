@@ -1,0 +1,65 @@
+/*HEADER*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg);
+  color: var(--colorTxt);
+  border-bottom: 0.5px solid #f8f8f8;
+  font-size:clamp(1.4rem,4vw,2.5rem);
+  line-height: 56px;
+}
+.app-header p{
+  width: 50%;
+  font-family: "Outfit", sans-serif;
+  margin: 20px 40px;
+  margin-left: 0%;
+  font-weight: 700;
+}
+.app-header img:last-of-type{
+  height: 100%;
+  margin: 2%;
+}
+.select-button{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+#coinSelect{
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  color: var(--colorTxt);
+  margin-right: 25px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+#coinSelect option{
+  color: black;
+}
+.toogleMode{
+  background-color: transparent;
+  border:none;
+}
+svg{
+  font-size: 20px;
+  fill: white;
+}
+img{
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-header p{
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    margin: 10px 20px;
+    margin-left: 0%;
+    font-weight: 700;
+  }
+}
