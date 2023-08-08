@@ -15,6 +15,7 @@ Organización de carpetas src:
 Vista Escritorio: 
 
 ![imagen](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/c50ca35f-9acd-433c-99b4-850e4d226f97)
+
 ![imagen](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/7fe4d576-b161-40ea-a872-c650a1e6e892)
 
 Vista movil:
