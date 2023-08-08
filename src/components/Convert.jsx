@@ -21,7 +21,7 @@ export default function Convert() {
     // Establecer el valor de los datos obtenidos
     setCoin(result.data);
 
-    // console.log(result.data)
+    console.log(result.data);
   };
   // Obtener los datos cuando el componente cargue
   useEffect(() => {

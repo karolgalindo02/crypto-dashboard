@@ -4,7 +4,7 @@
     place-items: center;
     gap: 10px;
     border: 2px solid #00ADD8;
-    background: #2F2F2F33;
+    background: none;
     height: 100%;
     width: 100%;
     border-radius: 20px;
@@ -40,7 +40,7 @@
 }
 .price{
     font-size: 1rem;
-    color: white;
+    color: var(--colorTxtCR);
 }
 .porcentajes{
     place-self: stretch;
@@ -60,4 +60,12 @@
     height: 50px;
     margin-top: 25px;
     margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .card img{
+        margin-top: 50%;
+        margin-left: 30%;
+        width: 75px;
+    }
 }
