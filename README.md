@@ -1,5 +1,5 @@
 # Crypto Dashboard React 📊💸
-![money](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/3fbbd500-69ab-4168-bd03-a553abee70c5)
+![money](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/2cecc786-a7a4-4478-81d6-40dd8f5bbbeb)
 
 Requerimientos:
 - Se debe consumir la API CoinGecko.
