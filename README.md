@@ -1,10 +1,10 @@
 # Crypto Dashboard React 📊💸
-![money](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/2cecc786-a7a4-4478-81d6-40dd8f5bbbeb)
-
 Requerimientos:
 - Se debe consumir la API CoinGecko.
 - Debe contener version claro / oscuro.
 - Crear componentes funcionales y acordes a los recursos administrados REACT.
+  
+![money](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/2cecc786-a7a4-4478-81d6-40dd8f5bbbeb)
 
 # Documentación
 
