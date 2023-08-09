@@ -4,6 +4,7 @@
     place-items: center;
     gap: 10px;
     border: 2px solid #00ADD8;
+    box-shadow: 0px 0px 10px 0px #00ADD8;
     background: none;
     height: 100%;
     width: 100%;

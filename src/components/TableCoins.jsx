@@ -3,7 +3,7 @@ import "../styles/tableCoins.css";
 import CoinRow from "./CoinRow";
 
 function TableCoins({ coins }) {
-  console.log(coins);
+ // console.log(coins);
 
 /* Creacion de tabla e iteracion a través del 
 arreglo coins, usando map para generar cada fila*/

@@ -1,7 +1,5 @@
 import {useEffect, useState} from 'react'
 import "../styles/App.css"; 
-import { Line } from "react-chartjs-2";
-import axios from 'axios'; 
 import CardPrincipal from './CardPrincipal';
 import TableCoins from './TableCoins';
 import Card from './Card'

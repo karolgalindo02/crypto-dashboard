@@ -53,6 +53,10 @@ svg{
 img{
   margin: 0px;
 }
+img:hover{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
 
 @media screen and (max-width: 768px) {
   .app-header p{
