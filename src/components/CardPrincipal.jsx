@@ -4,6 +4,7 @@ import {FaPlay} from 'react-icons/fa'
 import {deleteDec, colorDec} from './App'
 import Graph from './Graph'
 
+ // Representa la información de una criptomoneda con gráficos y estadísticas
 export default function CardPrincipal({ json: { id,
     symbol,
     current_price,

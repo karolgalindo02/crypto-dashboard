@@ -2,6 +2,8 @@ import "../styles/Card.css"
 import Graph from "./Graph"
 import {colorDec} from './App'
 
+/* Definir y exportar el componente Card, añadir HTML con los elementos de la Card
+   como imagen, precio, porcentaje y renderizado de la gráfica */
 export default function Card({coinId, cur, porcentaje, price, img}){
     return (
         <div className="card">

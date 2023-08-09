@@ -26,6 +26,7 @@ ChartJS.register(
     Legend,
 )
 export default function Graph({type = 1, coin = "bitcoin", currency = "usd", days = 30,color = "#04D99D"}){
+    // Definir opciones de escala comunes
     const optionScale = {
         grid: {
             display: false
@@ -37,11 +38,15 @@ export default function Graph({type = 1, coin = "bitcoin", currency = "usd", day
             display: false
         }
     }
+
+    // Definir variables de estado
     let data, options
     const [dates, setDates] = useState()
     const [prices, setPrices] = useState()
     const [gradient, setGradient] = useState()
     const graphRef = useRef(null)
+
+    // Obtener datos de la API
     const getData = async _ => {
         const res = await fetch(`https://api.coingecko.com/api/v3/coins/${coin}/market_chart?vs_currency=${currency}&days=${days}&interval=daily`)
         const json = await res.json()
@@ -49,6 +54,7 @@ export default function Graph({type = 1, coin = "bitcoin", currency = "usd", day
         setPrices(json.prices.map(item => Math.round(item[1])))
     }
 
+    // Efecto de montaje para obtener datos y definir gradiente
     useEffect(_ => {
         getData()
         const canvas = graphRef.current.firstChild
@@ -57,6 +63,8 @@ export default function Graph({type = 1, coin = "bitcoin", currency = "usd", day
         BGradient.addColorStop(1, "rgba(4, 191, 157, 0)")
         setGradient(BGradient)
     },[])
+
+    // Seleccionar tipo de gráfico y definir datos y opciones
     switch(type){
         case 0:
             data = {

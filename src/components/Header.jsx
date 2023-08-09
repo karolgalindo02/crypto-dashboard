@@ -3,10 +3,13 @@ import {useState, useEffect} from 'react'
 import Logo from '../img/Logo.png';
 import {MdWbSunny, MdNightlight} from "react-icons/md";
 export default function Header({currencys, fun, cur}) {
+  // Definir estado para el tema
   const [theme, setTheme] = useState(true)
+  // Función para alternar el tema
   const toggleTheme = _ => {
     setTheme(!theme)
   }
+  // Efecto para aplicar estilos basados en el tema
   useEffect(() => {
     if(!theme){
       document.documentElement.style.setProperty("--bg","white")
@@ -18,6 +21,9 @@ export default function Header({currencys, fun, cur}) {
       document.documentElement.style.setProperty("--colorTxtCR","#white")  
     }
   },[theme])
+
+  /* Contiene el logotipo, el titulo, el boton de 
+  moneda al igual que el del cambio de tema*/
   return (
     <header className='app-header'>
       <img src={Logo} alt="logo" />

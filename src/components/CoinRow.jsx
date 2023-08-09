@@ -2,6 +2,9 @@ import "../styles/CoinRow.css"
 import Graph from './Graph'
 import {deleteDec, colorDec, numberF} from './App'
 
+/* funciones deleteDec, colorDec y numberF para formatear 
+valores y aplicar colores de acuerdo a ciertos porcentajes*/
+// Definir y exportar el componente CoinRow
 export default function CoinRow({ coin: {id,image, name, current_price, market_cap_change_percentage_24h, total_volume,market_cap}, index }) {
   return (
     <tr className="row">
