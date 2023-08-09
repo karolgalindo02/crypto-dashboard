@@ -6,11 +6,7 @@ Requerimientos:
   
 ![money](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/2cecc786-a7a4-4478-81d6-40dd8f5bbbeb)
 
-# Documentación
-
-Organización de carpetas src:
-
-![imagen](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/56c7a8dc-84dd-443a-8c97-77d748425a8a)
+# Diseño Responsive
 
 Vista Escritorio: 
 
