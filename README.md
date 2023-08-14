@@ -20,4 +20,4 @@ Vista movil:
 ![imagen](https://github.com/karolgalindo02/crypto-dashboard/assets/122057880/a6bd1a78-b44e-488e-87da-521949693c9c)
 
 Dando como resultado
-╰⁠(⁠ ⁠･⁠ ⁠ᗜ⁠ ⁠･⁠ ⁠)⁠➝<a href="https://crypto-dashboard-nb5hrzru3-karolgalindo02.vercel.app/"> Despliegue del Dashboard💸</a>
+╰⁠(⁠ ⁠･⁠ ⁠ᗜ⁠ ⁠･⁠ ⁠)⁠➝ <a href="https://crypto-dashboard-2i3hkahde-karolgalindo02.vercel.app/"> Despliegue del Dashboard💸</a>
